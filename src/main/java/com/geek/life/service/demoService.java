@@ -5,5 +5,6 @@ package com.geek.life.service;
  * @Date: 2019/6/4 08:58
  * @Description:
  */
-public class demoService {
+public interface demoService {
+    void demo();
 }
