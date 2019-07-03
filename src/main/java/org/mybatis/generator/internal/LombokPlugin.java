@@ -43,8 +43,8 @@ public class LombokPlugin extends PluginAdapter {
         anInterface.addAnnotation("@Repository");
 
         //Mapper接口,继承MySqlMapper
-        anInterface.addImportedType(new FullyQualifiedJavaType("tk.mybatis.mapper.common.MySqlMapper"));
-        anInterface.addSuperInterface(new FullyQualifiedJavaType("MySqlMapper<"+introspectedTable.getBaseRecordType()+">"));
+//        anInterface.addImportedType(new FullyQualifiedJavaType("tk.mybatis.mapper.common.MySqlMapper"));
+//        anInterface.addSuperInterface(new FullyQualifiedJavaType("MySqlMapper<"+introspectedTable.getBaseRecordType()+">"));
         return true;
     }
 

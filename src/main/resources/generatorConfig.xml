@@ -17,19 +17,19 @@
         <!-- Lombok插件 -->
         <plugin type="org.mybatis.generator.internal.LombokPlugin"/>
 
-        <!-- Swagger2插件 -->
-        <plugin type="org.mybatis.generator.internal.Swagger2Plugin"/>
+        <!--&lt;!&ndash; Swagger2插件 &ndash;&gt;-->
+        <!--<plugin type="org.mybatis.generator.internal.Swagger2Plugin"/>-->
 
-         <!--引入插件 tkmapper-->
-        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-             <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
-        </plugin>
+         <!--&lt;!&ndash;引入插件 tkmapper&ndash;&gt;-->
+        <!--<plugin type="tk.mybatis.mapper.generator.MapperPlugin">-->
+             <!--<property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>-->
+        <!--</plugin>-->
 
         <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
         <commentGenerator>
             <property name="suppressAllComments" value="false"/>
             <!--是否使用swagger-->
-            <property name="isSwagger" value="true"/>
+            <property name="isSwagger" value="false"/>
             <!--生成的注释包含时间戳-->
             <property name="suppressDate" value="true"/>
         </commentGenerator>

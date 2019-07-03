@@ -681,8 +681,8 @@ public abstract class IntrospectedTable
     sb.append(calculateJavaClientInterfacePackage());
     sb.append('.');
     sb.append(this.fullyQualifiedTable.getDomainObjectName());
-//    sb.append("Mapper");
-    sb.append("DAO");
+    sb.append("Mapper");
+//    sb.append("DAO");
     setMyBatis3JavaMapperType(sb.toString());
     
     sb.setLength(0);
