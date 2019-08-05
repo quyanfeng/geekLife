@@ -16,6 +16,7 @@
     3.3 dao自动继承 MySqlMapper<T>,实现inserList功能
     3.4 重复执行，不会覆盖DAO及xml自定义方法
     3.5 ps:需将source目录下的maven包解压，替换原中央仓库下载下来的jar包
+    3.6 修改数据库tyint对应java byte为 Integer
     
    
    
