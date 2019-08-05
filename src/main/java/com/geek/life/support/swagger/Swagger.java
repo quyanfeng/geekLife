@@ -48,7 +48,7 @@ public class Swagger {
                 .enable(swaggerShow)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.geek.life"))
+                .apis(RequestHandlerSelectors.basePackage("com.geek.life.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .globalOperationParameters(pars)

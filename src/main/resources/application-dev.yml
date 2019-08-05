@@ -3,8 +3,8 @@ server:
     uri-encoding: UTF-8
     connectionTimeout: 200000
   port: 8080
-  servlet:
-    context-path: /geeklife
+#  servlet:
+#    context-path: /geeklife
 
 spring:
  # druid数据源
