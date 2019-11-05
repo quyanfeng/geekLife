@@ -121,7 +121,8 @@ public class DefaultShellCallback
       newFields.addAll(fieldDeclarations);
       for (FieldDeclaration f : newFields) {
 //        sb.append("\t" + f.toString());
-        String res = "\t"+f.toString().replaceFirst( "(?s)" + "\r\n" + "(?!.*?" + "\r\n" + ")", "\r\n\t" );
+//        String res = "\t"+f.toString().replaceFirst( "(?s)" + "\r\n" + "(?!.*?" + "\r\n" + ")", "\r\n\t" );
+        String res = "\t"+f.toString().replaceAll("\r\n", "\r\n\t");
         sb.append(res);
         newLine(sb);
         newLine(sb);

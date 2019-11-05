@@ -13,7 +13,7 @@ import java.util.TreeMap;
 
 
 /**
- * @Description:
+ * @Description: 按权重比例随机弹出其中的一个值
  * @Author: 屈艳锋
  * @Date: 2019/7/3 19:56
  */
